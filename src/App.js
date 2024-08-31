@@ -1,6 +1,12 @@
+import Body from "./components/Body";
 import "./styles.css";
+
 function App() {
-  return <div className="">Netflix</div>;
+  return (
+    <div className="">
+      <Body />
+    </div>
+  );
 }
 
 export default App;
